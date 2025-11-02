@@ -1,3 +1,4 @@
+-- customer model
 WITH MARKUP AS (
 SELECT *,
     FIRST_VALUE(customer_id)
